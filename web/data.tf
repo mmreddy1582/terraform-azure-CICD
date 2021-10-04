@@ -1,5 +1,5 @@
 data "azurerm_key_vault" "key_vault" {
-    name                = "murakeyvaultaia"
+    name                = "murakeyvaultaia1"
     resource_group_name = "mura-remote-state-rg"
  }
 
