@@ -4,7 +4,7 @@ data "azurerm_key_vault" "key_vault" {
  }
 
 data "azurerm_key_vault_secret" "muraadmin_password" {
-    name         = "muraadmin-password"
+    name         = "muraadmin-password1"
     key_vault_id = data.azurerm_key_vault.key_vault.id
 
 }
